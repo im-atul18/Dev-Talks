@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="concs.css">
+    <link rel="stylesheet" href="conjs.js" class="js">
+    <title>Contact Us</title>
+    
+    
+</head>
+<body>
+    <div class="floating-elements">
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Query Category <span class="required">*</span></label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="tech">Technical Support</option>
+                        <option value="code">Code Related</option>
+                        <option value="blog">Blog & Content</option>
+                        <option value="layout">Layout & Design</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="query">Detailed Query <span class="required">*</span></label>
+                    <textarea id="query" name="query" required placeholder="Please describe your question or issue in detail. The more information you provide, the better we can assist you..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+
+            <div class="contact-info">
+                <h3>Other Ways to Reach Us</h3>
+                <p><strong>Response Time:</strong> We typically respond within 24 hours during business days.</p>
+                <p><strong>Technical Issues:</strong> For urgent technical problems, please include your browser version and operating system.</p>
+                <p><strong>Code Questions:</strong> Please include relevant code snippets and error messages when applicable.</p>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
