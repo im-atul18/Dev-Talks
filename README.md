@@ -1,2 +1,3 @@
-# Dev-Talks-by-Atul
+# Dev-Talks
+
 A blog page for computer science students beginners 
